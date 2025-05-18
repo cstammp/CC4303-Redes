@@ -4,7 +4,7 @@ if [ $# -ne 1 ]; then
 fi
 
 SIZES=(1024 1500 2048 2500 3072 3500 4096 4500 5000)
-INPUT_FILE="Mona_Lisa.jpg"
+INPUT_FILE="mona_lisa.jpg"
 DIR_OUT="out"
 HOST=$1
 PORT="1818"
@@ -29,7 +29,7 @@ for SIZE in "${SIZES[@]}"; do
     done
 
 	end=$(date +%s.%N)
-    duration=$(echo "$end - $start" | bc)
+    duration=$(echo "$end - $start" | bc)   # requiere instalar bc (bash calculator)
 
 	file="${DIR_OUT}/${SIZE}_out.jpg"
     bytes_received=$(stat -c %s "$file" || echo 0)

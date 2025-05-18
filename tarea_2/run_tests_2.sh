@@ -34,7 +34,7 @@ run_udp_test() {
 for SIZE in "${SIZES[@]}"; do
     echo "size=$SIZE..."
 
-	# Borra los archivos generados (para no terminar con 500 archivos xd)
+	# Borra los archivos generados (para no terminar con 500 archivos)
     rm -f "${DIR_OUT}/archivo_"*_out_*.txt
     start=$(date +%s.%N)
 
@@ -46,7 +46,7 @@ for SIZE in "${SIZES[@]}"; do
     # Espera a que terminen
     wait
     end=$(date +%s.%N)
-    duration=$(echo "$end - $start" | bc)
+    duration=$(echo "$end - $start" | bc)   # requiere instalar bc (bash calculator)
 
     # Suma bytes recibidos
     total_received=0
