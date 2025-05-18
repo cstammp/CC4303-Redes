@@ -1,0 +1,45 @@
+<size>1024
+Bytes totales recibidos: 500000
+Tiempo total: 5.401613238 segundos
+Bandwidth: 92.56 KB/s
+
+<size>1500
+Bytes totales recibidos: 500000
+Tiempo total: 5.085422929 segundos
+Bandwidth: 98.32 KB/s
+
+<size>2048
+Bytes totales recibidos: 500000
+Tiempo total: 4.514219510 segundos
+Bandwidth: 110.76 KB/s
+
+<size>2500
+Bytes totales recibidos: 500000
+Tiempo total: 4.377804249 segundos
+Bandwidth: 114.21 KB/s
+
+<size>3072
+Bytes totales recibidos: 500000
+Tiempo total: 4.537182483 segundos
+Bandwidth: 110.20 KB/s
+
+<size>3500
+Bytes totales recibidos: 500000
+Tiempo total: 4.585314816 segundos
+Bandwidth: 109.04 KB/s
+
+<size>4096
+Bytes totales recibidos: 500000
+Tiempo total: 4.365813845 segundos
+Bandwidth: 114.52 KB/s
+
+<size>4500
+Bytes totales recibidos: 500000
+Tiempo total: 4.653018837 segundos
+Bandwidth: 107.45 KB/s
+
+<size>5000
+Bytes totales recibidos: 500000
+Tiempo total: 4.554199951 segundos
+Bandwidth: 109.78 KB/s
+

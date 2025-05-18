@@ -1,0 +1,45 @@
+<size>1024
+Bytes recibidos: 156974
+Tiempo: .034814119 segundos
+Bandwidth: 4508.92 KB/s
+
+<size>1500
+Bytes recibidos: 282666
+Tiempo: .016909122 segundos
+Bandwidth: 16716.78 KB/s
+
+<size>2048
+Bytes recibidos: 460078
+Tiempo: .017298936 segundos
+Bandwidth: 26595.74 KB/s
+
+<size>2500
+Bytes recibidos: 252166
+Tiempo: .010052680 segundos
+Bandwidth: 25084.45 KB/s
+
+<size>3072
+Bytes recibidos: 191790
+Tiempo: .009641647 segundos
+Bandwidth: 19891.83 KB/s
+
+<size>3500
+Bytes recibidos: 225666
+Tiempo: .012891054 segundos
+Bandwidth: 17505.63 KB/s
+
+<size>4096
+Bytes recibidos: 169262
+Tiempo: .009245395 segundos
+Bandwidth: 18307.71 KB/s
+
+<size>4500
+Bytes recibidos: 344166
+Tiempo: .013074874 segundos
+Bandwidth: 26322.70 KB/s
+
+<size>5000
+Bytes recibidos: 515000
+Tiempo: .016300439 segundos
+Bandwidth: 31594.24 KB/s
+
