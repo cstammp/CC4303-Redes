@@ -11,7 +11,7 @@ class ClientThread(threading.Thread):
         self.sock = s
     def run(self):
         print('Cliente Conectado')
- 
+        
         while True:
             data = self.sock.recv(1024*1024)
             if not data: break
