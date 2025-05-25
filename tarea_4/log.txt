@@ -4,7 +4,6 @@
 Bytes recibidos: 677166
 Tiempo: .353481261 segundos
 Bandwidth: 1870.79 KB/s
-break3
 Sent 167 packages, retrans 2, 1.20%, tot packs 187, 16711.98%
 Max_win: 10
 rtt est = 0.01184600149117736
@@ -15,7 +14,6 @@ rtt est = 0.01184600149117736
 Bytes recibidos: 677166
 Tiempo: .409181999 segundos
 Bandwidth: 1616.12 KB/s
-break3
 Sent 167 packages, retrans 3, 1.80%, tot packs 206, 16723.35%
 Max_win: 20
 rtt est = 0.057607479271927664
@@ -26,7 +24,6 @@ rtt est = 0.057607479271927664
 Bytes recibidos: 677166
 Tiempo: .748888449 segundos
 Bandwidth: 883.02 KB/s
-break3
 Sent 167 packages, retrans 10, 5.99%, tot packs 400, 16839.52%
 Max_win: 30
 rtt est = 0.06107208459434332
@@ -37,7 +34,6 @@ rtt est = 0.06107208459434332
 Bytes recibidos: 677166
 Tiempo: .456860061 segundos
 Bandwidth: 1447.46 KB/s
-break3
 Sent 167 packages, retrans 5, 2.99%, tot packs 329, 16797.01%
 Max_win: 40
 rtt est = 0.05201441051779077
@@ -48,7 +44,6 @@ rtt est = 0.05201441051779077
 Bytes recibidos: 677166
 Tiempo: .495549020 segundos
 Bandwidth: 1334.45 KB/s
-break3
 Sent 167 packages, retrans 5, 2.99%, tot packs 353, 16811.38%
 Max_win: 50
 rtt est = 0.061139190529110696
@@ -59,7 +54,6 @@ rtt est = 0.061139190529110696
 Bytes recibidos: 677166
 Tiempo: .910977061 segundos
 Bandwidth: 725.91 KB/s
-break3
 Sent 167 packages, retrans 12, 7.19%, tot packs 596, 16956.89%
 Max_win: 60
 rtt est = 0.060199088395165745
@@ -70,7 +64,6 @@ rtt est = 0.060199088395165745
 Bytes recibidos: 677166
 Tiempo: .618874161 segundos
 Bandwidth: 1068.53 KB/s
-break3
 Sent 167 packages, retrans 8, 4.79%, tot packs 548, 16928.14%
 Max_win: 70
 rtt est = 0.0666573232083465
@@ -81,7 +74,6 @@ rtt est = 0.0666573232083465
 Bytes recibidos: 677166
 Tiempo: .985940070 segundos
 Bandwidth: 670.72 KB/s
-break3
 Sent 167 packages, retrans 13, 7.78%, tot packs 766, 17058.68%
 Max_win: 80
 rtt est = 0.06142457860914874
@@ -92,7 +84,6 @@ rtt est = 0.06142457860914874
 Bytes recibidos: 677166
 Tiempo: .779314167 segundos
 Bandwidth: 848.55 KB/s
-break3
 Sent 167 packages, retrans 10, 5.99%, tot packs 757, 17053.29%
 Max_win: 90
 rtt est = 0.06680227825563634
@@ -103,7 +94,6 @@ rtt est = 0.06680227825563634
 Bytes recibidos: 677166
 Tiempo: 1.164330487 segundos
 Bandwidth: 567.95 KB/s
-break3
 Sent 167 packages, retrans 16, 9.58%, tot packs 902, 17140.12%
 Max_win: 100
 rtt est = 0.057669777826959034
@@ -114,7 +104,6 @@ rtt est = 0.057669777826959034
 Bytes recibidos: 677166
 Tiempo: 2.217244485 segundos
 Bandwidth: 298.24 KB/s
-break3
 Sent 167 packages, retrans 31, 18.56%, tot packs 2649, 18186.23%
 Max_win: 167
 rtt est = None
@@ -125,7 +114,6 @@ rtt est = None
 Bytes recibidos: 677166
 Tiempo: 2.104815680 segundos
 Bandwidth: 314.17 KB/s
-break3
 Sent 167 packages, retrans 29, 17.37%, tot packs 2518, 18107.78%
 Max_win: 167
 rtt est = 0.06948137283325195
@@ -136,7 +124,6 @@ rtt est = 0.06948137283325195
 Bytes recibidos: 677166
 Tiempo: 2.125488634 segundos
 Bandwidth: 311.12 KB/s
-break3
 Sent 167 packages, retrans 29, 17.37%, tot packs 2810, 18282.63%
 Max_win: 167
 rtt est = None
@@ -147,7 +134,6 @@ rtt est = None
 Bytes recibidos: 677166
 Tiempo: 2.173733955 segundos
 Bandwidth: 304.21 KB/s
-break3
 Sent 167 packages, retrans 30, 17.96%, tot packs 2526, 18112.57%
 Max_win: 167
 rtt est = None
@@ -158,7 +144,6 @@ rtt est = None
 Bytes recibidos: 677166
 Tiempo: .305747459 segundos
 Bandwidth: 2162.86 KB/s
-break3
 Sent 167 packages, retrans 0, 0.00%, tot packs 167, 16700.00%
 Max_win: 10
 rtt est = 0.03332718871998119
@@ -169,7 +154,6 @@ rtt est = 0.03332718871998119
 Bytes recibidos: 677166
 Tiempo: .818654854 segundos
 Bandwidth: 807.77 KB/s
-break3
 Sent 167 packages, retrans 7, 4.19%, tot packs 288, 16772.46%
 Max_win: 20
 rtt est = 0.06972877742645975
@@ -180,7 +164,6 @@ rtt est = 0.06972877742645975
 Bytes recibidos: 677166
 Tiempo: .963420837 segundos
 Bandwidth: 686.39 KB/s
-break3
 Sent 167 packages, retrans 9, 5.39%, tot packs 382, 16828.74%
 Max_win: 30
 rtt est = 0.06503685073766974
@@ -191,7 +174,6 @@ rtt est = 0.06503685073766974
 Bytes recibidos: 677166
 Tiempo: .982400244 segundos
 Bandwidth: 673.13 KB/s
-break3
 Sent 167 packages, retrans 9, 5.39%, tot packs 427, 16855.69%
 Max_win: 40
 rtt est = 0.06764147464127745
@@ -202,7 +184,6 @@ rtt est = 0.06764147464127745
 Bytes recibidos: 677166
 Tiempo: 1.261483780 segundos
 Bandwidth: 524.21 KB/s
-break3
 Sent 167 packages, retrans 12, 7.19%, tot packs 616, 16968.86%
 Max_win: 50
 rtt est = 0.07876533226954052
@@ -213,7 +194,6 @@ rtt est = 0.07876533226954052
 Bytes recibidos: 677166
 Tiempo: 1.267259481 segundos
 Bandwidth: 521.82 KB/s
-break3
 Sent 167 packages, retrans 12, 7.19%, tot packs 585, 16950.30%
 Max_win: 60
 rtt est = 0.07107491863280302
@@ -224,7 +204,6 @@ rtt est = 0.07107491863280302
 Bytes recibidos: 677166
 Tiempo: 1.371438521 segundos
 Bandwidth: 482.18 KB/s
-break3
 Sent 167 packages, retrans 13, 7.78%, tot packs 706, 17022.75%
 Max_win: 70
 rtt est = 0.07757117021537852
@@ -235,7 +214,6 @@ rtt est = 0.07757117021537852
 Bytes recibidos: 677166
 Tiempo: 1.326432613 segundos
 Bandwidth: 498.54 KB/s
-break3
 Sent 167 packages, retrans 12, 7.19%, tot packs 776, 17064.67%
 Max_win: 80
 rtt est = 0.0798902224705671
@@ -246,7 +224,6 @@ rtt est = 0.0798902224705671
 Bytes recibidos: 677166
 Tiempo: 1.187352928 segundos
 Bandwidth: 556.94 KB/s
-break3
 Sent 167 packages, retrans 11, 6.59%, tot packs 765, 17058.08%
 Max_win: 90
 rtt est = None
@@ -257,7 +234,6 @@ rtt est = None
 Bytes recibidos: 677166
 Tiempo: 1.187865760 segundos
 Bandwidth: 556.70 KB/s
-break3
 Sent 167 packages, retrans 11, 6.59%, tot packs 743, 17044.91%
 Max_win: 100
 rtt est = 0.07768183523148764
@@ -268,7 +244,6 @@ rtt est = 0.07768183523148764
 Bytes recibidos: 677166
 Tiempo: 2.675710990 segundos
 Bandwidth: 247.14 KB/s
-break3
 Sent 167 packages, retrans 26, 15.57%, tot packs 2118, 17868.26%
 Max_win: 167
 rtt est = None
@@ -279,7 +254,6 @@ rtt est = None
 Bytes recibidos: 677166
 Tiempo: 2.504196573 segundos
 Bandwidth: 264.07 KB/s
-break3
 Sent 167 packages, retrans 24, 14.37%, tot packs 2455, 18070.06%
 Max_win: 167
 rtt est = None
@@ -290,7 +264,6 @@ rtt est = None
 Bytes recibidos: 677166
 Tiempo: 1.604837946 segundos
 Bandwidth: 412.06 KB/s
-break3
 Sent 167 packages, retrans 15, 8.98%, tot packs 1258, 17353.29%
 Max_win: 167
 rtt est = 0.09272680431604385
@@ -301,7 +274,6 @@ rtt est = 0.09272680431604385
 Bytes recibidos: 677166
 Tiempo: 1.974455742 segundos
 Bandwidth: 334.92 KB/s
-break3
 Sent 167 packages, retrans 19, 11.38%, tot packs 1540, 17522.16%
 Max_win: 167
 rtt est = 0.09129353240132332

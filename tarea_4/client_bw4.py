@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# client_bw3.py
+# client_bw4.py
 # Echo client program UDP with Go-Back-N
 # Version con dos threads: uno lee de <input_file> hacia el socket y el otro del socket a <output_file>
 import jsockets
@@ -161,7 +161,6 @@ with open(input_file, "rb") as f:
 						print(f"Error: {e}")
 						pass
 					seq = next_seq(seq)
-	print("break3")
 
 newthread.join()              # Espera que el thread termine
 s.close()
