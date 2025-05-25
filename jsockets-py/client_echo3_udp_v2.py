@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# Echo client program
+# Echo client program (modificado para leer cualquier archivo binario)
 # Version con dos threads: uno lee de stdin hacia el socket y el otro al revés
 import jsockets
 import sys, threading
