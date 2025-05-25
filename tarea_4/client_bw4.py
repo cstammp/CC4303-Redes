@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 # client_bw3.py
-# Echo client program UDP with Stop&Wait
+# Echo client program UDP with Go-Back-N
 # Version con dos threads: uno lee de <input_file> hacia el socket y el otro del socket a <output_file>
 import jsockets
 import socket
@@ -40,7 +40,7 @@ def in_window(seq, start, end):
 	return (start <= end and start <= seq < end) or (start > end and (seq >= start or seq < end))
 
 def Rdr(s, output_file, size):
-	global last_ack, valid
+	global last_ack, valid, rtt_est
 	expected_seq = 0
 	s.settimeout(15)
 	with open(output_file, "wb") as f:
@@ -53,8 +53,6 @@ def Rdr(s, output_file, size):
 			except Exception as e:
 				print(f"Error: {e}")
 				continue
-			if not data: 
-				break
 
 			recv_seq = from_seq(data[:3])
 			payload = data[3:]
@@ -67,12 +65,9 @@ def Rdr(s, output_file, size):
 							rtt = time.time() - window[recv_seq][1]
 							rtt_est = (0.5 * rtt) + (0.5 * rtt_est) if rtt_est is not None else rtt  # Promedio ponderado
 						expected_seq = next_seq(expected_seq)
+						if not payload:    # EOF
+							break
 					cond.notify()
-
-			# EOF
-			if not payload:
-				break
-
 
 if len(sys.argv) != 8:
 	print('Use: '+sys.argv[0]+' <size> <timeout> <window_size> <input_file> <output_file> <host> <port>')
@@ -101,7 +96,7 @@ max_win = 0		  # Registra el máximo tamaño alcanzado de la ventana (Para estad
 
 # En este otro thread leo desde <input_file> hacia socket:
 with open(input_file, "rb") as f:
-	while not (eof and start_window == end_window) or valid:
+	while not (eof and last_ack == (end_window - 1) % MAX_SEQ):
 		# correr la ventana hasta el último ack recibido
 		with cond:
 			if last_ack is not None and in_window(last_ack, start_window, end_window):
@@ -109,26 +104,26 @@ with open(input_file, "rb") as f:
 
 		# while ventana llena
 		while (end_window - start_window) % MAX_SEQ == max_window_size:
-			tout = timeout - (time.time() - window[start_window][1])
-			if tout < 0: tout = 0
-			if not cond.wait(tout):
-				# retransmitir ventana
-				error_count += 1
-				seq = start_window
-				while seq != end_window:
-					data = window[seq][0]
-					chunk = to_seq(seq) + data
-					try:
-						s.send(chunk)
-						window[seq][1] = time.time()
-						window[seq][2] = True
-						retransmitted_packages += 1
-					except Exception as e:
-						print(f"Error: {e}")
-						pass
-					seq = next_seq(seq)
-			# correr la ventana hasta el último ack recibido recibido
 			with cond:
+				tout = timeout - (time.time() - window[start_window][1])
+				if tout < 0: tout = 0
+				if not cond.wait(tout):
+					# retransmitir ventana
+					error_count += 1
+					seq = start_window
+					while seq != end_window:
+						data = window[seq][0]
+						chunk = to_seq(seq) + data
+						try:
+							s.send(chunk)
+							window[seq][1] = time.time()
+							window[seq][2] = True
+							retransmitted_packages += 1
+						except Exception as e:
+							print(f"Error: {e}")
+							pass
+						seq = next_seq(seq)
+				# correr la ventana hasta el último ack recibido recibido
 				if last_ack is not None and in_window(last_ack, start_window, end_window):
 						start_window = next_seq(last_ack)
 
@@ -150,22 +145,23 @@ with open(input_file, "rb") as f:
 				continue
 
 		# Revisar si hay que retransmitir la ventana
-		if window[start_window] and (time.time() - window[start_window][1]) >= timeout:
-			error_count += 1
-			seq = start_window
-			while seq != end_window:
-				data = window[seq][0]
-				chunk = to_seq(seq) + data
-				try:
-					s.send(chunk)
-					window[seq][1] = time.time()
-					window[seq][2] = True
-					retransmitted_packages += 1
-				except Exception as e:
-					print(f"Error: {e}")
-					pass
-				seq = next_seq(seq)
-
+		with cond:
+			if window[start_window] and (time.time() - window[start_window][1]) >= timeout:
+				error_count += 1
+				seq = start_window
+				while seq != end_window:
+					data = window[seq][0]
+					chunk = to_seq(seq) + data
+					try:
+						s.send(chunk)
+						window[seq][1] = time.time()
+						window[seq][2] = True
+						retransmitted_packages += 1
+					except Exception as e:
+						print(f"Error: {e}")
+						pass
+					seq = next_seq(seq)
+	print("break3")
 
 newthread.join()              # Espera que el thread termine
 s.close()
