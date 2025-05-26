@@ -168,7 +168,7 @@ s.close()
 if valid:
 	if total_sent_packages > 0:
 		error_percentage = (error_count / total_sent_packages) * 100
-		extra_packages_sent_percentage = (total_sent_packages + retransmitted_packages / total_sent_packages) * 100
+		extra_packages_sent_percentage = ((total_sent_packages + retransmitted_packages) / total_sent_packages) * 100
 		print(f"Sent {total_sent_packages} packages, retrans {error_count}, {error_percentage:.2f}%, tot packs {total_sent_packages + retransmitted_packages}, {extra_packages_sent_percentage:.2f}%")
 		print(f"Max_win: {max_win}")
 		print(f"rtt est = {rtt_est}")

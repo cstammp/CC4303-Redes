@@ -1,0 +1,1430 @@
+<size>4096
+<timeout>0.05
+<window_size>1
+Bytes recibidos: 677166
+Tiempo: 3.241092285 segundos
+Bandwidth: 204.03 KB/s
+Sent 167 packages, retrans 6, 3.59%, tot packs 173, 103.59%
+Max_win: 1
+rtt est = 0.010359446861194107
+
+<size>4096
+<timeout>0.05
+<window_size>10
+Bytes recibidos: 677166
+Tiempo: .370703390 segundos
+Bandwidth: 1783.87 KB/s
+Sent 167 packages, retrans 3, 1.80%, tot packs 191, 114.37%
+Max_win: 10
+rtt est = 0.04160013672034667
+
+<size>4096
+<timeout>0.05
+<window_size>20
+Bytes recibidos: 677166
+Tiempo: .234117140 segundos
+Bandwidth: 2824.61 KB/s
+Sent 167 packages, retrans 1, 0.60%, tot packs 187, 111.98%
+Max_win: 20
+rtt est = 0.023471875293998835
+
+<size>4096
+<timeout>0.05
+<window_size>30
+Bytes recibidos: 677166
+Tiempo: .323182880 segundos
+Bandwidth: 2046.17 KB/s
+Sent 167 packages, retrans 4, 2.40%, tot packs 238, 142.51%
+Max_win: 30
+rtt est = 0.044221737049866754
+
+<size>4096
+<timeout>0.05
+<window_size>40
+Bytes recibidos: 677166
+Tiempo: 1.025012270 segundos
+Bandwidth: 645.15 KB/s
+Sent 167 packages, retrans 19, 11.38%, tot packs 711, 425.75%
+Max_win: 40
+rtt est = 0.04066090188098315
+
+<size>4096
+<timeout>0.05
+<window_size>50
+Bytes recibidos: 677166
+Tiempo: .755364888 segundos
+Bandwidth: 875.45 KB/s
+Sent 167 packages, retrans 14, 8.38%, tot packs 670, 401.20%
+Max_win: 50
+rtt est = 0.045208961237221956
+
+<size>4096
+<timeout>0.05
+<window_size>60
+Bytes recibidos: 677166
+Tiempo: .650037003 segundos
+Bandwidth: 1017.31 KB/s
+Sent 167 packages, retrans 12, 7.19%, tot packs 612, 366.47%
+Max_win: 60
+rtt est = 0.048040176487120334
+
+<size>4096
+<timeout>0.05
+<window_size>70
+Bytes recibidos: 677166
+Tiempo: 1.161871021 segundos
+Bandwidth: 569.15 KB/s
+Sent 167 packages, retrans 22, 13.17%, tot packs 1169, 700.00%
+Max_win: 70
+rtt est = 0.043403781950473785
+
+<size>4096
+<timeout>0.05
+<window_size>80
+Bytes recibidos: 677166
+Tiempo: 1.102532854 segundos
+Bandwidth: 599.79 KB/s
+Sent 167 packages, retrans 21, 12.57%, tot packs 879, 526.35%
+Max_win: 80
+rtt est = 0.04720032541081309
+
+<size>4096
+<timeout>0.05
+<window_size>90
+Bytes recibidos: 677166
+Tiempo: 2.906968756 segundos
+Bandwidth: 227.48 KB/s
+Sent 167 packages, retrans 57, 34.13%, tot packs 3505, 2098.80%
+Max_win: 90
+rtt est = 0.046637874096632004
+
+<size>4096
+<timeout>0.05
+<window_size>100
+Bytes recibidos: 677166
+Tiempo: 1.191264786 segundos
+Bandwidth: 555.11 KB/s
+Sent 167 packages, retrans 22, 13.17%, tot packs 1332, 797.60%
+Max_win: 100
+rtt est = 0.044353097677230835
+
+<size>4096
+<timeout>0.05
+<window_size>200
+Bytes recibidos: 677166
+Tiempo: 2.914353952 segundos
+Bandwidth: 226.90 KB/s
+Sent 167 packages, retrans 57, 34.13%, tot packs 4614, 2762.87%
+Max_win: 167
+rtt est = None
+
+<size>4096
+<timeout>0.05
+<window_size>300
+Bytes recibidos: 677166
+Tiempo: 3.011986273 segundos
+Bandwidth: 219.55 KB/s
+Sent 167 packages, retrans 59, 35.33%, tot packs 4954, 2966.47%
+Max_win: 167
+rtt est = None
+
+<size>4096
+<timeout>0.05
+<window_size>400
+Bytes recibidos: 677166
+Tiempo: 3.892762138 segundos
+Bandwidth: 169.87 KB/s
+Sent 167 packages, retrans 76, 45.51%, tot packs 5987, 3585.03%
+Max_win: 167
+rtt est = None
+
+<size>4096
+<timeout>0.05
+<window_size>500
+Bytes recibidos: 677166
+Tiempo: 2.888453521 segundos
+Bandwidth: 228.94 KB/s
+Sent 167 packages, retrans 56, 33.53%, tot packs 5116, 3063.47%
+Max_win: 167
+rtt est = None
+
+<size>4096
+<timeout>0.05
+<window_size>1000
+Bytes recibidos: 677166
+Tiempo: 3.771775284 segundos
+Bandwidth: 175.32 KB/s
+Sent 167 packages, retrans 74, 44.31%, tot packs 5671, 3395.81%
+Max_win: 167
+rtt est = 0.04062986373901367
+
+<size>4096
+<timeout>0.1
+<window_size>1
+Bytes recibidos: 677166
+Tiempo: 2.503622979 segundos
+Bandwidth: 264.13 KB/s
+Sent 167 packages, retrans 2, 1.20%, tot packs 169, 101.20%
+Max_win: 1
+rtt est = 0.010998599767725862
+
+<size>4096
+<timeout>0.1
+<window_size>10
+Bytes recibidos: 677166
+Tiempo: .988622836 segundos
+Bandwidth: 668.90 KB/s
+Sent 167 packages, retrans 6, 3.59%, tot packs 227, 135.93%
+Max_win: 10
+rtt est = 0.0686577833455016
+
+<size>4096
+<timeout>0.1
+<window_size>20
+Bytes recibidos: 677166
+Tiempo: 1.427029144 segundos
+Bandwidth: 463.40 KB/s
+Sent 167 packages, retrans 13, 7.78%, tot packs 397, 237.72%
+Max_win: 20
+rtt est = 0.025882448223910615
+
+<size>4096
+<timeout>0.1
+<window_size>30
+Bytes recibidos: 677166
+Tiempo: 1.058836703 segundos
+Bandwidth: 624.54 KB/s
+Sent 167 packages, retrans 10, 5.99%, tot packs 384, 229.94%
+Max_win: 30
+rtt est = 0.07240610268490855
+
+<size>4096
+<timeout>0.1
+<window_size>50
+Bytes recibidos: 677166
+Tiempo: 1.173186705 segundos
+Bandwidth: 563.66 KB/s
+Sent 167 packages, retrans 11, 6.59%, tot packs 554, 331.74%
+Max_win: 50
+rtt est = 0.08169869528501295
+
+<size>4096
+<timeout>0.1
+<window_size>60
+Bytes recibidos: 677166
+Tiempo: 1.503385532 segundos
+Bandwidth: 439.86 KB/s
+Sent 167 packages, retrans 14, 8.38%, tot packs 782, 468.26%
+Max_win: 60
+rtt est = 0.054106730967760086
+
+<size>4096
+<timeout>0.1
+<window_size>70
+Bytes recibidos: 677166
+Tiempo: .892511939 segundos
+Bandwidth: 740.93 KB/s
+Sent 167 packages, retrans 8, 4.79%, tot packs 540, 323.35%
+Max_win: 70
+rtt est = 0.07224025400500977
+
+<size>4096
+<timeout>0.1
+<window_size>80
+Bytes recibidos: 677166
+Tiempo: 1.523181952 segundos
+Bandwidth: 434.15 KB/s
+Sent 167 packages, retrans 14, 8.38%, tot packs 939, 562.28%
+Max_win: 80
+rtt est = 0.06262627222167794
+
+<size>4096
+<timeout>0.1
+<window_size>90
+Bytes recibidos: 677166
+Tiempo: 1.551380373 segundos
+Bandwidth: 426.25 KB/s
+Sent 167 packages, retrans 15, 8.98%, tot packs 864, 517.37%
+Max_win: 90
+rtt est = 0.07862045229558134
+
+<size>4096
+<timeout>0.1
+<window_size>100
+Bytes recibidos: 677166
+Tiempo: 1.816652697 segundos
+Bandwidth: 364.01 KB/s
+Sent 167 packages, retrans 17, 10.18%, tot packs 1127, 674.85%
+Max_win: 100
+rtt est = 0.08695523798814975
+
+<size>4096
+<timeout>0.1
+<window_size>200
+Bytes recibidos: 677166
+Tiempo: 1.470371941 segundos
+Bandwidth: 449.74 KB/s
+Sent 167 packages, retrans 14, 8.38%, tot packs 1283, 768.26%
+Max_win: 167
+rtt est = 0.08848657086491585
+
+<size>4096
+<timeout>0.1
+<window_size>300
+Bytes recibidos: 677166
+Tiempo: 1.675870212 segundos
+Bandwidth: 394.59 KB/s
+Sent 167 packages, retrans 16, 9.58%, tot packs 1412, 845.51%
+Max_win: 167
+rtt est = 0.08966347666864749
+
+<size>4096
+<timeout>0.1
+<window_size>400
+Bytes recibidos: 677166
+Tiempo: 1.866460219 segundos
+Bandwidth: 354.30 KB/s
+Sent 167 packages, retrans 18, 10.78%, tot packs 1684, 1008.38%
+Max_win: 167
+rtt est = 0.08614611625671387
+
+<size>4096
+<timeout>0.1
+<window_size>500
+Bytes recibidos: 677166
+Tiempo: 1.725406130 segundos
+Bandwidth: 383.26 KB/s
+Sent 167 packages, retrans 16, 9.58%, tot packs 1458, 873.05%
+Max_win: 167
+rtt est = 0.08670513301331084
+
+<size>4096
+<timeout>0.1
+<window_size>1000
+Bytes recibidos: 677166
+Tiempo: 1.368393084 segundos
+Bandwidth: 483.26 KB/s
+Sent 167 packages, retrans 13, 7.78%, tot packs 1129, 676.05%
+Max_win: 167
+rtt est = 0.08830602234229445
+
+<size>4096
+<timeout>0.5
+<window_size>1
+Bytes recibidos: 677166
+Tiempo: 2.838537552 segundos
+Bandwidth: 232.96 KB/s
+Sent 167 packages, retrans 1, 0.60%, tot packs 168, 100.60%
+Max_win: 1
+rtt est = 0.008832464184354257
+
+<size>4096
+<timeout>0.5
+<window_size>10
+Bytes recibidos: 677166
+Tiempo: 3.509756116 segundos
+Bandwidth: 188.41 KB/s
+Sent 167 packages, retrans 6, 3.59%, tot packs 227, 135.93%
+Max_win: 10
+rtt est = 0.03270886227969611
+
+<size>4096
+<timeout>0.5
+<window_size>20
+Bytes recibidos: 677166
+Tiempo: 5.574774491 segundos
+Bandwidth: 118.62 KB/s
+Sent 167 packages, retrans 11, 6.59%, tot packs 367, 219.76%
+Max_win: 20
+rtt est = 0.04529691999050556
+
+<size>4096
+<timeout>0.5
+<window_size>30
+Bytes recibidos: 677166
+Tiempo: 5.567552344 segundos
+Bandwidth: 118.77 KB/s
+Sent 167 packages, retrans 11, 6.59%, tot packs 441, 264.07%
+Max_win: 30
+rtt est = 0.0625779154652264
+
+<size>4096
+<timeout>0.5
+<window_size>40
+Bytes recibidos: 677166
+Tiempo: 5.568131470 segundos
+Bandwidth: 118.76 KB/s
+Sent 167 packages, retrans 11, 6.59%, tot packs 521, 311.98%
+Max_win: 40
+rtt est = 0.06674014320742572
+
+<size>4096
+<timeout>0.5
+<window_size>50
+Bytes recibidos: 677166
+Tiempo: 5.580530549 segundos
+Bandwidth: 118.49 KB/s
+Sent 167 packages, retrans 11, 6.59%, tot packs 591, 353.89%
+Max_win: 50
+rtt est = 0.06683962749957573
+
+<size>4096
+<timeout>0.5
+<window_size>60
+Bytes recibidos: 677166
+Tiempo: 5.575635275 segundos
+Bandwidth: 118.60 KB/s
+Sent 167 packages, retrans 11, 6.59%, tot packs 650, 389.22%
+Max_win: 60
+rtt est = 0.06424300051003229
+
+<size>4096
+<timeout>0.5
+<window_size>70
+Bytes recibidos: 677166
+Tiempo: 5.580732843 segundos
+Bandwidth: 118.49 KB/s
+Sent 167 packages, retrans 11, 6.59%, tot packs 713, 426.95%
+Max_win: 70
+rtt est = 0.07494876526470762
+
+<size>4096
+<timeout>0.5
+<window_size>80
+Bytes recibidos: 677166
+Tiempo: 5.561631518 segundos
+Bandwidth: 118.90 KB/s
+Sent 167 packages, retrans 11, 6.59%, tot packs 769, 460.48%
+Max_win: 80
+rtt est = 0.08218929894792382
+
+<size>4096
+<timeout>0.5
+<window_size>90
+Bytes recibidos: 677166
+Tiempo: 5.575944658 segundos
+Bandwidth: 118.59 KB/s
+Sent 167 packages, retrans 11, 6.59%, tot packs 826, 494.61%
+Max_win: 90
+rtt est = 0.07423276305780746
+
+<size>4096
+<timeout>0.5
+<window_size>100
+Bytes recibidos: 677166
+Tiempo: 5.576204971 segundos
+Bandwidth: 118.59 KB/s
+Sent 167 packages, retrans 11, 6.59%, tot packs 862, 516.17%
+Max_win: 100
+rtt est = 0.0858770183112938
+
+<size>4096
+<timeout>0.5
+<window_size>200
+Bytes recibidos: 677166
+Tiempo: 5.571780079 segundos
+Bandwidth: 118.68 KB/s
+Sent 167 packages, retrans 11, 6.59%, tot packs 962, 576.05%
+Max_win: 167
+rtt est = 0.22753175056277541
+
+<size>4096
+<timeout>0.5
+<window_size>300
+Bytes recibidos: 677166
+Tiempo: 5.567300439 segundos
+Bandwidth: 118.78 KB/s
+Sent 167 packages, retrans 11, 6.59%, tot packs 972, 582.04%
+Max_win: 167
+rtt est = 0.23949368594912812
+
+<size>4096
+<timeout>0.5
+<window_size>400
+Bytes recibidos: 677166
+Tiempo: 6.074543281 segundos
+Bandwidth: 108.86 KB/s
+Sent 167 packages, retrans 12, 7.19%, tot packs 1029, 616.17%
+Max_win: 167
+rtt est = 0.09523750224616379
+
+<size>4096
+<timeout>0.5
+<window_size>500
+Bytes recibidos: 677166
+Tiempo: 5.584579752 segundos
+Bandwidth: 118.41 KB/s
+Sent 167 packages, retrans 11, 6.59%, tot packs 939, 562.28%
+Max_win: 167
+rtt est = 0.24805403683058103
+
+<size>4096
+<timeout>0.5
+<window_size>1000
+Bytes recibidos: 677166
+Tiempo: 5.568974930 segundos
+Bandwidth: 118.74 KB/s
+Sent 167 packages, retrans 11, 6.59%, tot packs 955, 571.86%
+Max_win: 167
+rtt est = 0.08382716706182691
+
+<size>4500
+<timeout>0.05
+<window_size>1
+Bytes recibidos: 677166
+Tiempo: 2.146413539 segundos
+Bandwidth: 308.09 KB/s
+Sent 152 packages, retrans 2, 1.32%, tot packs 154, 101.32%
+Max_win: 1
+rtt est = 0.00644544833013461
+
+<size>4500
+<timeout>0.05
+<window_size>10
+Bytes recibidos: 677166
+Tiempo: .504560595 segundos
+Bandwidth: 1310.62 KB/s
+Sent 152 packages, retrans 6, 3.95%, tot packs 200, 131.58%
+Max_win: 10
+rtt est = 0.008808037570322568
+
+<size>4500
+<timeout>0.05
+<window_size>20
+Bytes recibidos: 677166
+Tiempo: .278574591 segundos
+Bandwidth: 2373.83 KB/s
+Sent 152 packages, retrans 2, 1.32%, tot packs 192, 126.32%
+Max_win: 20
+rtt est = 0.03288740169168666
+
+<size>4500
+<timeout>0.05
+<window_size>30
+Bytes recibidos: 677166
+Tiempo: .731646438 segundos
+Bandwidth: 903.83 KB/s
+Sent 152 packages, retrans 13, 8.55%, tot packs 370, 243.42%
+Max_win: 30
+rtt est = 0.03749114111401756
+
+<size>4500
+<timeout>0.05
+<window_size>40
+Bytes recibidos: 677166
+Tiempo: .653836462 segundos
+Bandwidth: 1011.39 KB/s
+Sent 152 packages, retrans 11, 7.24%, tot packs 450, 296.05%
+Max_win: 40
+rtt est = 0.03789614856880519
+
+<size>4500
+<timeout>0.05
+<window_size>50
+Bytes recibidos: 677166
+Tiempo: 1.354724462 segundos
+Bandwidth: 488.13 KB/s
+Sent 152 packages, retrans 26, 17.11%, tot packs 907, 596.71%
+Max_win: 50
+rtt est = 0.04538912605494261
+
+<size>4500
+<timeout>0.05
+<window_size>60
+Bytes recibidos: 677166
+Tiempo: 1.670166762 segundos
+Bandwidth: 395.94 KB/s
+Sent 152 packages, retrans 32, 21.05%, tot packs 1295, 851.97%
+Max_win: 60
+rtt est = 0.04518810659646988
+
+<size>4500
+<timeout>0.05
+<window_size>70
+Bytes recibidos: 677166
+Tiempo: 1.144426639 segundos
+Bandwidth: 577.83 KB/s
+Sent 152 packages, retrans 21, 13.82%, tot packs 1061, 698.03%
+Max_win: 70
+rtt est = 0.040461063385009766
+
+<size>4500
+<timeout>0.05
+<window_size>80
+Bytes recibidos: 677166
+Tiempo: 2.478968943 segundos
+Bandwidth: 266.76 KB/s
+Sent 152 packages, retrans 48, 31.58%, tot packs 2027, 1333.55%
+Max_win: 80
+rtt est = 0.0411984920501709
+
+<size>4500
+<timeout>0.05
+<window_size>90
+Bytes recibidos: 677166
+Tiempo: 1.410047630 segundos
+Bandwidth: 468.98 KB/s
+Sent 152 packages, retrans 27, 17.76%, tot packs 1353, 890.13%
+Max_win: 90
+rtt est = 0.046083711087703705
+
+<size>4500
+<timeout>0.05
+<window_size>100
+Bytes recibidos: 677166
+Tiempo: 2.543978314 segundos
+Bandwidth: 259.94 KB/s
+Sent 152 packages, retrans 49, 32.24%, tot packs 2419, 1591.45%
+Max_win: 100
+rtt est = None
+
+<size>4500
+<timeout>0.05
+<window_size>200
+Bytes recibidos: 677166
+Tiempo: 7.555116707 segundos
+Bandwidth: 87.52 KB/s
+Sent 152 packages, retrans 150, 98.68%, tot packs 13558, 8919.74%
+Max_win: 152
+rtt est = None
+
+<size>4500
+<timeout>0.05
+<window_size>300
+Bytes recibidos: 677166
+Tiempo: 5.956051327 segundos
+Bandwidth: 111.02 KB/s
+Sent 152 packages, retrans 118, 77.63%, tot packs 11371, 7480.92%
+Max_win: 152
+rtt est = None
+
+<size>4500
+<timeout>0.05
+<window_size>400
+Bytes recibidos: 677166
+Tiempo: 5.550380450 segundos
+Bandwidth: 119.14 KB/s
+Sent 152 packages, retrans 110, 72.37%, tot packs 9242, 6080.26%
+Max_win: 152
+rtt est = None
+
+<size>4500
+<timeout>0.05
+<window_size>500
+Bytes recibidos: 677166
+Tiempo: 2.721008392 segundos
+Bandwidth: 243.03 KB/s
+Sent 152 packages, retrans 53, 34.87%, tot packs 4967, 3267.76%
+Max_win: 152
+rtt est = None
+
+<size>4500
+<timeout>0.05
+<window_size>1000
+Bytes recibidos: 677166
+Tiempo: 4.415781736 segundos
+Bandwidth: 149.75 KB/s
+Sent 152 packages, retrans 87, 57.24%, tot packs 6399, 4209.87%
+Max_win: 152
+rtt est = 0.04447293281555176
+
+<size>4500
+<timeout>0.1
+<window_size>1
+Bytes recibidos: 677166
+Tiempo: 2.348998392 segundos
+Bandwidth: 281.51 KB/s
+Sent 152 packages, retrans 1, 0.66%, tot packs 153, 100.66%
+Max_win: 1
+rtt est = 0.04318076087693907
+
+<size>4500
+<timeout>0.1
+<window_size>10
+Bytes recibidos: 677166
+Tiempo: .297427639 segundos
+Bandwidth: 2223.36 KB/s
+Sent 152 packages, retrans 0, 0.00%, tot packs 152, 100.00%
+Max_win: 10
+rtt est = 0.062532077663044
+
+<size>4500
+<timeout>0.1
+<window_size>20
+Bytes recibidos: 677166
+Tiempo: 1.177413863 segundos
+Bandwidth: 561.64 KB/s
+Sent 152 packages, retrans 10, 6.58%, tot packs 320, 210.53%
+Max_win: 20
+rtt est = 0.07580155801770161
+
+<size>4500
+<timeout>0.1
+<window_size>30
+Bytes recibidos: 677166
+Tiempo: .994738215 segundos
+Bandwidth: 664.78 KB/s
+Sent 152 packages, retrans 9, 5.92%, tot packs 376, 247.37%
+Max_win: 30
+rtt est = 0.07520622914307751
+
+<size>4500
+<timeout>0.1
+<window_size>40
+Bytes recibidos: 677166
+Tiempo: 1.123754905 segundos
+Bandwidth: 588.46 KB/s
+Sent 152 packages, retrans 10, 6.58%, tot packs 436, 286.84%
+Max_win: 40
+rtt est = 0.06521417031763121
+
+<size>4500
+<timeout>0.1
+<window_size>50
+Bytes recibidos: 677166
+Tiempo: .877759632 segundos
+Bandwidth: 753.38 KB/s
+Sent 152 packages, retrans 8, 5.26%, tot packs 430, 282.89%
+Max_win: 50
+rtt est = 0.07774065440753475
+
+<size>4500
+<timeout>0.1
+<window_size>60
+Bytes recibidos: 677166
+Tiempo: .954162538 segundos
+Bandwidth: 693.05 KB/s
+Sent 152 packages, retrans 9, 5.92%, tot packs 513, 337.50%
+Max_win: 60
+rtt est = 0.06487792354892008
+
+<size>4500
+<timeout>0.1
+<window_size>70
+Bytes recibidos: 677166
+Tiempo: 1.297135758 segundos
+Bandwidth: 509.80 KB/s
+Sent 152 packages, retrans 12, 7.89%, tot packs 617, 405.92%
+Max_win: 70
+rtt est = 0.07500545444781892
+
+<size>4500
+<timeout>0.1
+<window_size>80
+Bytes recibidos: 677166
+Tiempo: 1.204478558 segundos
+Bandwidth: 549.02 KB/s
+Sent 152 packages, retrans 11, 7.24%, tot packs 720, 473.68%
+Max_win: 80
+rtt est = 0.07619959465228021
+
+<size>4500
+<timeout>0.1
+<window_size>90
+Bytes recibidos: 677166
+Tiempo: 1.302437078 segundos
+Bandwidth: 507.73 KB/s
+Sent 152 packages, retrans 12, 7.89%, tot packs 826, 543.42%
+Max_win: 90
+rtt est = 0.07809798131347634
+
+<size>4500
+<timeout>0.1
+<window_size>100
+Bytes recibidos: 677166
+Tiempo: 1.440026828 segundos
+Bandwidth: 459.22 KB/s
+Sent 152 packages, retrans 13, 8.55%, tot packs 906, 596.05%
+Max_win: 100
+rtt est = 0.06929797594784759
+
+<size>4500
+<timeout>0.1
+<window_size>200
+Bytes recibidos: 677166
+Tiempo: 1.704902064 segundos
+Bandwidth: 387.87 KB/s
+Sent 152 packages, retrans 16, 10.53%, tot packs 1362, 896.05%
+Max_win: 152
+rtt est = 0.0903443694114685
+
+<size>4500
+<timeout>0.1
+<window_size>300
+Bytes recibidos: 677166
+Tiempo: 1.419711769 segundos
+Bandwidth: 465.79 KB/s
+Sent 152 packages, retrans 13, 8.55%, tot packs 1102, 725.00%
+Max_win: 152
+rtt est = 0.09130525449290872
+
+<size>4500
+<timeout>0.1
+<window_size>400
+Bytes recibidos: 677166
+Tiempo: 2.416636246 segundos
+Bandwidth: 273.64 KB/s
+Sent 152 packages, retrans 23, 15.13%, tot packs 1849, 1216.45%
+Max_win: 152
+rtt est = 0.08609771728515625
+
+<size>4500
+<timeout>0.1
+<window_size>500
+Bytes recibidos: 677166
+Tiempo: 2.269548343 segundos
+Bandwidth: 291.37 KB/s
+Sent 152 packages, retrans 22, 14.47%, tot packs 2091, 1375.66%
+Max_win: 152
+rtt est = 0.08688712120056152
+
+<size>4500
+<timeout>0.1
+<window_size>1000
+Bytes recibidos: 677166
+Tiempo: 1.643359869 segundos
+Bandwidth: 402.40 KB/s
+Sent 152 packages, retrans 16, 10.53%, tot packs 1297, 853.29%
+Max_win: 152
+rtt est = 0.09138652309775352
+
+<size>4500
+<timeout>0.5
+<window_size>1
+Bytes recibidos: 677166
+Tiempo: 5.439253136 segundos
+Bandwidth: 121.57 KB/s
+Sent 152 packages, retrans 6, 3.95%, tot packs 158, 103.95%
+Max_win: 1
+rtt est = 0.011316866900228012
+
+<size>4500
+<timeout>0.5
+<window_size>10
+Bytes recibidos: 677166
+Tiempo: .809974518 segundos
+Bandwidth: 816.43 KB/s
+Sent 152 packages, retrans 1, 0.66%, tot packs 153, 100.66%
+Max_win: 10
+rtt est = 0.07079857938925652
+
+<size>4500
+<timeout>0.5
+<window_size>20
+Bytes recibidos: 677166
+Tiempo: 5.563042921 segundos
+Bandwidth: 118.87 KB/s
+Sent 152 packages, retrans 11, 7.24%, tot packs 343, 225.66%
+Max_win: 20
+rtt est = 0.06704907675157301
+
+<size>4500
+<timeout>0.5
+<window_size>30
+Bytes recibidos: 677166
+Tiempo: 6.071057224 segundos
+Bandwidth: 108.92 KB/s
+Sent 152 packages, retrans 12, 7.89%, tot packs 444, 292.11%
+Max_win: 30
+rtt est = 0.09404293447732925
+
+<size>4500
+<timeout>0.5
+<window_size>40
+Bytes recibidos: 677166
+Tiempo: 5.564016224 segundos
+Bandwidth: 118.85 KB/s
+Sent 152 packages, retrans 11, 7.24%, tot packs 505, 332.24%
+Max_win: 40
+rtt est = 0.09154861589195207
+
+<size>4500
+<timeout>0.5
+<window_size>50
+Bytes recibidos: 677166
+Tiempo: 5.569503366 segundos
+Bandwidth: 118.73 KB/s
+Sent 152 packages, retrans 11, 7.24%, tot packs 581, 382.24%
+Max_win: 50
+rtt est = 0.09344298564246856
+
+<size>4500
+<timeout>0.5
+<window_size>60
+Bytes recibidos: 677166
+Tiempo: 6.062787369 segundos
+Bandwidth: 109.07 KB/s
+Sent 152 packages, retrans 12, 7.89%, tot packs 677, 445.39%
+Max_win: 60
+rtt est = 0.10494857854791917
+
+<size>4500
+<timeout>0.5
+<window_size>70
+Bytes recibidos: 677166
+Tiempo: 5.561625397 segundos
+Bandwidth: 118.90 KB/s
+Sent 152 packages, retrans 11, 7.24%, tot packs 699, 459.87%
+Max_win: 70
+rtt est = 0.09282049475586973
+
+<size>4500
+<timeout>0.5
+<window_size>80
+Bytes recibidos: 677166
+Tiempo: 6.065050919 segundos
+Bandwidth: 109.03 KB/s
+Sent 152 packages, retrans 12, 7.89%, tot packs 811, 533.55%
+Max_win: 80
+rtt est = 0.08682000072440132
+
+<size>4500
+<timeout>0.5
+<window_size>90
+Bytes recibidos: 677166
+Tiempo: 5.564641525 segundos
+Bandwidth: 118.83 KB/s
+Sent 152 packages, retrans 11, 7.24%, tot packs 795, 523.03%
+Max_win: 90
+rtt est = 0.09550896025029942
+
+<size>4500
+<timeout>0.5
+<window_size>100
+Bytes recibidos: 677166
+Tiempo: 5.560492759 segundos
+Bandwidth: 118.92 KB/s
+Sent 152 packages, retrans 11, 7.24%, tot packs 831, 546.71%
+Max_win: 100
+rtt est = 0.09139626202522777
+
+<size>4500
+<timeout>0.5
+<window_size>200
+Bytes recibidos: 677166
+Tiempo: 5.559060647 segundos
+Bandwidth: 118.95 KB/s
+Sent 152 packages, retrans 11, 7.24%, tot packs 902, 593.42%
+Max_win: 152
+rtt est = 0.22315623561735265
+
+<size>4500
+<timeout>0.5
+<window_size>300
+Bytes recibidos: 677166
+Tiempo: 5.560181791 segundos
+Bandwidth: 118.93 KB/s
+Sent 152 packages, retrans 11, 7.24%, tot packs 900, 592.11%
+Max_win: 152
+rtt est = 0.22983581144944765
+
+<size>4500
+<timeout>0.5
+<window_size>400
+Bytes recibidos: 677166
+Tiempo: 5.557796744 segundos
+Bandwidth: 118.98 KB/s
+Sent 152 packages, retrans 11, 7.24%, tot packs 903, 594.08%
+Max_win: 152
+rtt est = 0.183932168292813
+
+<size>4500
+<timeout>0.5
+<window_size>500
+Bytes recibidos: 677166
+Tiempo: 5.559971698 segundos
+Bandwidth: 118.93 KB/s
+Sent 152 packages, retrans 11, 7.24%, tot packs 903, 594.08%
+Max_win: 152
+rtt est = 0.13710947113577276
+
+<size>4500
+<timeout>0.5
+<window_size>1000
+Bytes recibidos: 677166
+Tiempo: 5.591369500 segundos
+Bandwidth: 118.26 KB/s
+Sent 152 packages, retrans 11, 7.24%, tot packs 903, 594.08%
+Max_win: 152
+rtt est = 0.23122008526115678
+
+<size>5000
+<timeout>0.05
+<window_size>1
+Bytes recibidos: 677166
+Tiempo: 2.178829402 segundos
+Bandwidth: 303.50 KB/s
+Sent 137 packages, retrans 1, 0.73%, tot packs 138, 100.73%
+Max_win: 1
+rtt est = 0.008780425560850135
+
+<size>5000
+<timeout>0.05
+<window_size>10
+Bytes recibidos: 677166
+Tiempo: .376852882 segundos
+Bandwidth: 1754.76 KB/s
+Sent 137 packages, retrans 4, 2.92%, tot packs 168, 122.63%
+Max_win: 10
+rtt est = 0.028051636537515693
+
+<size>5000
+<timeout>0.05
+<window_size>20
+Bytes recibidos: 677166
+Tiempo: .472151962 segundos
+Bandwidth: 1400.58 KB/s
+Sent 137 packages, retrans 6, 4.38%, tot packs 215, 156.93%
+Max_win: 20
+rtt est = 0.037605102118217666
+
+<size>5000
+<timeout>0.05
+<window_size>30
+Bytes recibidos: 677166
+Tiempo: .565062021 segundos
+Bandwidth: 1170.29 KB/s
+Sent 137 packages, retrans 9, 6.57%, tot packs 277, 202.19%
+Max_win: 30
+rtt est = 0.039558555245188184
+
+<size>5000
+<timeout>0.05
+<window_size>40
+Bytes recibidos: 677166
+Tiempo: .512652939 segundos
+Bandwidth: 1289.93 KB/s
+Sent 137 packages, retrans 9, 6.57%, tot packs 416, 303.65%
+Max_win: 40
+rtt est = 0.03701364994049072
+
+<size>5000
+<timeout>0.05
+<window_size>50
+Bytes recibidos: 677166
+Tiempo: .831677385 segundos
+Bandwidth: 795.12 KB/s
+Sent 137 packages, retrans 15, 10.95%, tot packs 513, 374.45%
+Max_win: 50
+rtt est = 0.043730641114962054
+
+<size>5000
+<timeout>0.05
+<window_size>60
+Bytes recibidos: 677166
+Tiempo: .866463451 segundos
+Bandwidth: 763.20 KB/s
+Sent 137 packages, retrans 16, 11.68%, tot packs 717, 523.36%
+Max_win: 60
+rtt est = 0.0410466194152832
+
+<size>5000
+<timeout>0.05
+<window_size>70
+Bytes recibidos: 677166
+Tiempo: .782792723 segundos
+Bandwidth: 844.78 KB/s
+Sent 137 packages, retrans 14, 10.22%, tot packs 836, 610.22%
+Max_win: 70
+rtt est = 0.04518927726894617
+
+<size>5000
+<timeout>0.05
+<window_size>80
+Bytes recibidos: 677166
+Tiempo: 1.010220867 segundos
+Bandwidth: 654.59 KB/s
+Sent 137 packages, retrans 19, 13.87%, tot packs 1158, 845.26%
+Max_win: 80
+rtt est = 0.047201839595800266
+
+<size>5000
+<timeout>0.05
+<window_size>90
+Bytes recibidos: 677166
+Tiempo: 1.054009648 segundos
+Bandwidth: 627.40 KB/s
+Sent 137 packages, retrans 20, 14.60%, tot packs 1063, 775.91%
+Max_win: 90
+rtt est = 0.04793878202326596
+
+<size>5000
+<timeout>0.05
+<window_size>100
+Bytes recibidos: 677166
+Tiempo: 1.957050457 segundos
+Bandwidth: 337.90 KB/s
+Sent 137 packages, retrans 38, 27.74%, tot packs 2168, 1582.48%
+Max_win: 100
+rtt est = None
+
+<size>5000
+<timeout>0.05
+<window_size>200
+Bytes recibidos: 677166
+Tiempo: 4.374901428 segundos
+Bandwidth: 151.15 KB/s
+Sent 137 packages, retrans 86, 62.77%, tot packs 7179, 5240.15%
+Max_win: 137
+rtt est = None
+
+<size>5000
+<timeout>0.05
+<window_size>300
+Bytes recibidos: 677166
+Tiempo: 2.608013521 segundos
+Bandwidth: 253.56 KB/s
+Sent 137 packages, retrans 51, 37.23%, tot packs 3560, 2598.54%
+Max_win: 137
+rtt est = None
+
+<size>5000
+<timeout>0.05
+<window_size>400
+Bytes recibidos: 677166
+Tiempo: 3.031570905 segundos
+Bandwidth: 218.13 KB/s
+Sent 137 packages, retrans 59, 43.07%, tot packs 3902, 2848.18%
+Max_win: 137
+rtt est = 0.04929232597351074
+
+<size>5000
+<timeout>0.05
+<window_size>500
+Bytes recibidos: 677166
+Tiempo: 3.317083281 segundos
+Bandwidth: 199.35 KB/s
+Sent 137 packages, retrans 65, 47.45%, tot packs 4367, 3187.59%
+Max_win: 137
+rtt est = None
+
+<size>5000
+<timeout>0.05
+<window_size>1000
+Bytes recibidos: 677166
+Tiempo: 2.600689873 segundos
+Bandwidth: 254.27 KB/s
+Sent 137 packages, retrans 51, 37.23%, tot packs 3308, 2414.60%
+Max_win: 137
+rtt est = None
+
+<size>5000
+<timeout>0.1
+<window_size>1
+Bytes recibidos: 677166
+Tiempo: 1.933903229 segundos
+Bandwidth: 341.94 KB/s
+Sent 137 packages, retrans 1, 0.73%, tot packs 138, 100.73%
+Max_win: 1
+rtt est = 0.009721185970282015
+
+<size>5000
+<timeout>0.1
+<window_size>10
+Bytes recibidos: 677166
+Tiempo: .391024204 segundos
+Bandwidth: 1691.17 KB/s
+Sent 137 packages, retrans 1, 0.73%, tot packs 138, 100.73%
+Max_win: 10
+rtt est = 0.02468107728772169
+
+<size>5000
+<timeout>0.1
+<window_size>20
+Bytes recibidos: 677166
+Tiempo: .814699407 segundos
+Bandwidth: 811.69 KB/s
+Sent 137 packages, retrans 6, 4.38%, tot packs 231, 168.61%
+Max_win: 20
+rtt est = 0.07846236273687433
+
+<size>5000
+<timeout>0.1
+<window_size>30
+Bytes recibidos: 677166
+Tiempo: 1.154363699 segundos
+Bandwidth: 572.86 KB/s
+Sent 137 packages, retrans 11, 8.03%, tot packs 398, 290.51%
+Max_win: 30
+rtt est = 0.06838501145830378
+
+<size>5000
+<timeout>0.1
+<window_size>40
+Bytes recibidos: 677166
+Tiempo: .960423723 segundos
+Bandwidth: 688.53 KB/s
+Sent 137 packages, retrans 9, 6.57%, tot packs 393, 286.86%
+Max_win: 40
+rtt est = 0.06919717811979353
+
+<size>5000
+<timeout>0.1
+<window_size>50
+Bytes recibidos: 677166
+Tiempo: 1.139238571 segundos
+Bandwidth: 580.46 KB/s
+Sent 137 packages, retrans 10, 7.30%, tot packs 522, 381.02%
+Max_win: 50
+rtt est = 0.034396231174468994
+
+<size>5000
+<timeout>0.1
+<window_size>60
+Bytes recibidos: 677166
+Tiempo: 1.011698938 segundos
+Bandwidth: 653.64 KB/s
+Sent 137 packages, retrans 9, 6.57%, tot packs 512, 373.72%
+Max_win: 60
+rtt est = 0.07355591014493257
+
+<size>5000
+<timeout>0.1
+<window_size>70
+Bytes recibidos: 677166
+Tiempo: 1.407597893 segundos
+Bandwidth: 469.80 KB/s
+Sent 137 packages, retrans 13, 9.49%, tot packs 751, 548.18%
+Max_win: 70
+rtt est = 0.061271153565030545
+
+<size>5000
+<timeout>0.1
+<window_size>80
+Bytes recibidos: 677166
+Tiempo: 1.236910433 segundos
+Bandwidth: 534.63 KB/s
+Sent 137 packages, retrans 11, 8.03%, tot packs 647, 472.26%
+Max_win: 80
+rtt est = 0.0753598379669711
+
+<size>5000
+<timeout>0.1
+<window_size>90
+Bytes recibidos: 677166
+Tiempo: 1.300482271 segundos
+Bandwidth: 508.49 KB/s
+Sent 137 packages, retrans 12, 8.76%, tot packs 768, 560.58%
+Max_win: 90
+rtt est = 0.07477692264365032
+
+<size>5000
+<timeout>0.1
+<window_size>100
+Bytes recibidos: 677166
+Tiempo: 1.259315786 segundos
+Bandwidth: 525.11 KB/s
+Sent 137 packages, retrans 12, 8.76%, tot packs 728, 531.39%
+Max_win: 100
+rtt est = 0.0655054411618039
+
+<size>5000
+<timeout>0.1
+<window_size>200
+Bytes recibidos: 677166
+Tiempo: 3.087012115 segundos
+Bandwidth: 214.21 KB/s
+Sent 137 packages, retrans 30, 21.90%, tot packs 2395, 1748.18%
+Max_win: 137
+rtt est = 0.09203271917067468
+
+<size>5000
+<timeout>0.1
+<window_size>300
+Bytes recibidos: 677166
+Tiempo: 3.053261850 segundos
+Bandwidth: 216.58 KB/s
+Sent 137 packages, retrans 30, 21.90%, tot packs 2339, 1707.30%
+Max_win: 137
+rtt est = 0.0917395162396133
+
+<size>5000
+<timeout>0.1
+<window_size>400
+Bytes recibidos: 677166
+Tiempo: 2.050956623 segundos
+Bandwidth: 322.43 KB/s
+Sent 137 packages, retrans 20, 14.60%, tot packs 1506, 1099.27%
+Max_win: 137
+rtt est = 0.08929147757589817
+
+<size>5000
+<timeout>0.1
+<window_size>500
+Bytes recibidos: 677166
+Tiempo: 1.690390636 segundos
+Bandwidth: 391.20 KB/s
+Sent 137 packages, retrans 16, 11.68%, tot packs 1382, 1008.76%
+Max_win: 137
+rtt est = 0.0887039303779602
+
+<size>5000
+<timeout>0.1
+<window_size>1000
+Bytes recibidos: 677166
+Tiempo: 1.555300866 segundos
+Bandwidth: 425.18 KB/s
+Sent 137 packages, retrans 15, 10.95%, tot packs 1029, 751.09%
+Max_win: 137
+rtt est = 0.07774320582393557
+
+<size>5000
+<timeout>0.5
+<window_size>1
+Bytes recibidos: 677166
+Tiempo: 2.647846422 segundos
+Bandwidth: 249.74 KB/s
+Sent 137 packages, retrans 1, 0.73%, tot packs 138, 100.73%
+Max_win: 1
+rtt est = 0.007577934199557726
+
+<size>5000
+<timeout>0.5
+<window_size>10
+Bytes recibidos: 677166
+Tiempo: 1.934486075 segundos
+Bandwidth: 341.84 KB/s
+Sent 137 packages, retrans 3, 2.19%, tot packs 158, 115.33%
+Max_win: 10
+rtt est = 0.03764464526706986
+
+<size>5000
+<timeout>0.5
+<window_size>20
+Bytes recibidos: 677166
+Tiempo: 5.566209786 segundos
+Bandwidth: 118.80 KB/s
+Sent 137 packages, retrans 11, 8.03%, tot packs 332, 242.34%
+Max_win: 20
+rtt est = 0.08765322482213378
+
+<size>5000
+<timeout>0.5
+<window_size>30
+Bytes recibidos: 677166
+Tiempo: 5.576358472 segundos
+Bandwidth: 118.58 KB/s
+Sent 137 packages, retrans 11, 8.03%, tot packs 416, 303.65%
+Max_win: 30
+rtt est = 0.08673856256064028
+
+<size>5000
+<timeout>0.5
+<window_size>40
+Bytes recibidos: 677166
+Tiempo: 6.067139835 segundos
+Bandwidth: 108.99 KB/s
+Sent 137 packages, retrans 12, 8.76%, tot packs 506, 369.34%
+Max_win: 40
+rtt est = 0.08961680275388062
+
+<size>5000
+<timeout>0.5
+<window_size>50
+Bytes recibidos: 677166
+Tiempo: 5.565676509 segundos
+Bandwidth: 118.81 KB/s
+Sent 137 packages, retrans 11, 8.03%, tot packs 569, 415.33%
+Max_win: 50
+rtt est = 0.09189597226213664
+
+<size>5000
+<timeout>0.5
+<window_size>60
+Bytes recibidos: 677166
+Tiempo: 5.556734813 segundos
+Bandwidth: 119.00 KB/s
+Sent 137 packages, retrans 11, 8.03%, tot packs 620, 452.55%
+Max_win: 60
+rtt est = 0.09084547858219594
+
+<size>5000
+<timeout>0.5
+<window_size>70
+Bytes recibidos: 677166
+Tiempo: 6.055100311 segundos
+Bandwidth: 109.21 KB/s
+Sent 137 packages, retrans 12, 8.76%, tot packs 695, 507.30%
+Max_win: 70
+rtt est = 0.08773210714571178
+
+<size>5000
+<timeout>0.5
+<window_size>80
+Bytes recibidos: 677166
+Tiempo: 6.073319886 segundos
+Bandwidth: 108.88 KB/s
+Sent 137 packages, retrans 12, 8.76%, tot packs 747, 545.26%
+Max_win: 80
+rtt est = 0.0790116477292031
+
+<size>5000
+<timeout>0.5
+<window_size>90
+Bytes recibidos: 677166
+Tiempo: 6.053904394 segundos
+Bandwidth: 109.23 KB/s
+Sent 137 packages, retrans 12, 8.76%, tot packs 780, 569.34%
+Max_win: 90
+rtt est = 0.0879785594297573
+
+<size>5000
+<timeout>0.5
+<window_size>100
+Bytes recibidos: 677166
+Tiempo: 6.052608780 segundos
+Bandwidth: 109.25 KB/s
+Sent 137 packages, retrans 12, 8.76%, tot packs 798, 582.48%
+Max_win: 100
+rtt est = 0.08833944424986839
+
+<size>5000
+<timeout>0.5
+<window_size>200
+Bytes recibidos: 677166
+Tiempo: 6.072194163 segundos
+Bandwidth: 108.90 KB/s
+Sent 137 packages, retrans 12, 8.76%, tot packs 840, 613.14%
+Max_win: 137
+rtt est = 0.08301401272183284
+
+<size>5000
+<timeout>0.5
+<window_size>300
+Bytes recibidos: 677166
+Tiempo: 6.058642147 segundos
+Bandwidth: 109.14 KB/s
+Sent 137 packages, retrans 12, 8.76%, tot packs 853, 622.63%
+Max_win: 137
+rtt est = 0.12250475119799376
+
+<size>5000
+<timeout>0.5
+<window_size>400
+Bytes recibidos: 677166
+Tiempo: 5.559026539 segundos
+Bandwidth: 118.95 KB/s
+Sent 137 packages, retrans 11, 8.03%, tot packs 832, 607.30%
+Max_win: 137
+rtt est = 0.13008387316949666
+
+<size>5000
+<timeout>0.5
+<window_size>500
+Bytes recibidos: 677166
+Tiempo: 6.055325014 segundos
+Bandwidth: 109.20 KB/s
+Sent 137 packages, retrans 12, 8.76%, tot packs 851, 621.17%
+Max_win: 137
+rtt est = 0.09500797523651272
+
+<size>5000
+<timeout>0.5
+<window_size>1000
+Bytes recibidos: 677166
+Tiempo: 5.557442914 segundos
+Bandwidth: 118.99 KB/s
+Sent 137 packages, retrans 11, 8.03%, tot packs 828, 604.38%
+Max_win: 137
+rtt est = 0.11805220815585926
+

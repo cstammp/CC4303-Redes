@@ -1,8 +1,8 @@
 import os
 
-num_archivos = 100
-tamano_archivo = 5000  # bytes
-contenido = b'1' * tamano_archivo
+num_archivos = 1
+tamano_archivo = 100 * 1024 * 1024  # 150 MB
+contenido = b'1' * tamano_archivo  # escribe puros "1"s
 dir_archivos = "archivos_txt"
 
 # Crea la carpeta si no existe

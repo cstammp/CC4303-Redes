@@ -6,12 +6,13 @@ fi
 HOST=$1
 PORT="1818"
 SIZES=(4096 4500 5000)
-TIMEOUTS=(0.07 0.1)
-WINDOW_SIZES=(10 20 30 40 50 60 70 80 90 100 200 300 400 500)
+TIMEOUTS=(0.05 0.1 0.5)
+WINDOW_SIZES=(1 10 20 30 40 50 60 70 80 90 100 200 300 400 500 1000)
 INPUT_FILE=$2
 DIR_OUT="out"
-LOG_FILE="log.txt"
+LOG_FILE="log_${HOST}.txt"
 
+EXT_FILE="${INPUT_FILE##*.}"  # Extension input file
 mkdir -p "$DIR_OUT"
 
 for SIZE in "${SIZES[@]}"; do
@@ -22,12 +23,11 @@ for SIZE in "${SIZES[@]}"; do
 			echo "window_size=$WINDOW_SIZE..."
 			start=$(date +%s.%N)
 
-			OUTPUT_FILE="${DIR_OUT}/${SIZE}_${TIMEOUT}_${WINDOW_SIZE}_out.jpg"
+			OUTPUT_FILE="${DIR_OUT}/${SIZE}_${TIMEOUT}_${WINDOW_SIZE}_out.${EXT_FILE}"
 			OUTPUT=$(python3 client_bw4.py "$SIZE" "$TIMEOUT" "$WINDOW_SIZE" "$INPUT_FILE" "$OUTPUT_FILE" "$HOST" "$PORT")
 
 			if echo "$OUTPUT" | grep -q "Error: TimeoutException"; then
                 echo "Error: TimeoutException con SIZE=$SIZE, TIMEOUT=$TIMEOUT, WINDOW_SIZE=$WINDOW_SIZE"
-				exit 1
             fi
 
 			end=$(date +%s.%N)
