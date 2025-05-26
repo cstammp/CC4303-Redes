@@ -1,7 +1,7 @@
 import os
 
 num_archivos = 1
-tamano_archivo = 100 * 1024 * 1024  # 150 MB
+tamano_archivo = 25 * 1024 * 1024  # 25 MB
 contenido = b'1' * tamano_archivo  # escribe puros "1"s
 dir_archivos = "archivos_txt"
 
