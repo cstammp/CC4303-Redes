@@ -123,7 +123,7 @@ with open(input_file, "rb") as f:
 							print(f"Error: {e}")
 							pass
 						seq = next_seq(seq)
-				# correr la ventana hasta el último ack recibido recibido
+				# correr la ventana hasta el último ack recibido
 				if last_ack is not None and in_window(last_ack, start_window, end_window):
 						start_window = next_seq(last_ack)
 
