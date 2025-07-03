@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-# client_bw5.py
-# Echo client program UDP with Selective Repeat
+# client_bw6.py
+# Echo client program UDP with Selective Repeat, adaptative timeout and congestion window
 # Version con dos threads: uno lee de <input_file> hacia el socket y el otro del socket a <output_file>
 import jsockets
 import socket
@@ -17,6 +17,7 @@ sender_eof = False
 receiver_eof = False
 valid = 1
 rtt_est = None
+rtt_max = None
 
 # Lock y condición para sincronización entre threads
 lock = threading.Lock()
@@ -42,15 +43,20 @@ def in_window(seq, start, end):
 
 def get_timeout(start, end, timeout):
 	min_tout = timeout
-	seq = start
-	while seq != end:
-			if not acked[seq]:  # no ha sido recibido
-				tout = timeout - (time.time() - window[seq][1])
+	if rtt_max is not None:
+		seq = start
+		while seq != end:
+				if not acked[seq] and window[seq] is not None:  # no ha sido recibido
+					if window[seq][2]: #si fue retransmitido 
+						tout = (2 * rtt_max)  - (time.time() - window[seq][1])
+					else:
+						tout = rtt_max - (time.time() - window[seq][1])
 
-				if tout < min_tout:
-					min_tout = tout
-			seq = (seq + 1) % MAX_SEQ
+					if tout < min_tout:
+						min_tout = tout
+				seq = (seq + 1) % MAX_SEQ
 	return min_tout
+
 
 def print_window_state():
 	print("\n--- Estado actual de la ventana ---")
@@ -71,7 +77,7 @@ def print_window_state():
 ##########################
 
 def Rdr(sock, output_file, size, max_window_size):
-	global receiver_eof, rtt_est, valid
+	global receiver_eof, rtt_est, rtt_max, valid
 
 	recv_start = 0    # Inicio ventana de recepción
 	recv_buffer = {}  # Buffer que guarda paquetes recibidos fuera de orden
@@ -113,6 +119,10 @@ def Rdr(sock, output_file, size, max_window_size):
 							if window[rcv_seq] is not None and not window[rcv_seq][2]:
 								rtt = time.time() - window[rcv_seq][1]
 								rtt_est = rtt if rtt_est is None else (0.5 * rtt + 0.5 * rtt_est)
+								# Actualizar rtt_max
+								if rtt_max is None or rtt > rtt_max:
+									rtt_max = min(rtt, 2)
+
 
 						# correr ventana de recepción revisando todos los paquetes ya recibidos
 						# escribiéndolos al archivo y revisando eof
@@ -127,9 +137,12 @@ def Rdr(sock, output_file, size, max_window_size):
 								f.write(chunk)
 
 							# calculo del rtt estimado (ignorar paquetes retransmitidos)
-							if window[recv_start] is not None and not window[recv_start][2]:
-								rtt = time.time() - window[recv_start][1]
+							if window[rcv_seq] is not None and not window[rcv_seq][2]:
+								rtt = time.time() - window[rcv_seq][1]
 								rtt_est = rtt if rtt_est is None else (0.5 * rtt + 0.5 * rtt_est)
+								# Actualizar rtt_max
+								if rtt_max is None or rtt > rtt_max:
+									rtt_max = min(rtt, 2)
 							
 							recv_start = next_seq(recv_start)
 						cond.notify()
@@ -266,7 +279,7 @@ if valid:
 
 		print(f"sent {sent_packages} packets, retrans {retransmitted_packages}, tot packs {total}, {retrans_percentage}%")
 		print(f"Max_win: {max_win}")
-		print(f"rtt est = {rtt_est}")
+		print(f"rtt_max = {rtt_max}")
 	else:
 		print("Error: No se enviaron paquetes.")
 else:
