@@ -57,7 +57,6 @@ def get_timeout(start, end, timeout):
 				seq = (seq + 1) % MAX_SEQ
 	return min_tout
 
-
 def print_window_state():
 	print("\n--- Estado actual de la ventana ---")
 	for i in range(MAX_SEQ):
@@ -87,7 +86,7 @@ def Rdr(sock, output_file, size, max_window_size):
 	with open(output_file, "wb") as f:
 		while not receiver_eof:
 			try:
-				print_window_state()
+				#print_window_state()
 				data = sock.recv(size + 3)
 			except socket.timeout:
 				valid = 0
@@ -121,7 +120,7 @@ def Rdr(sock, output_file, size, max_window_size):
 								rtt_est = rtt if rtt_est is None else (0.5 * rtt + 0.5 * rtt_est)
 								# Actualizar rtt_max
 								if rtt_max is None or rtt > rtt_max:
-									rtt_max = min(rtt, 2)
+									rtt_max = min(rtt, 2)   # Limitamos RTT máximo a 2 segundos
 
 
 						# correr ventana de recepción revisando todos los paquetes ya recibidos
@@ -142,7 +141,7 @@ def Rdr(sock, output_file, size, max_window_size):
 								rtt_est = rtt if rtt_est is None else (0.5 * rtt + 0.5 * rtt_est)
 								# Actualizar rtt_max
 								if rtt_max is None or rtt > rtt_max:
-									rtt_max = min(rtt, 2)
+									rtt_max = min(rtt, 2)   # Limitamos RTT máximo a 2 segundos
 							
 							recv_start = next_seq(recv_start)
 						cond.notify()
@@ -163,8 +162,6 @@ def Rdr(sock, output_file, size, max_window_size):
 if len(sys.argv) != 8:
 	print('Use: '+sys.argv[0]+' <size> <timeout> <window_size> <input_file> <output_file> <host> <port>')
 	
-	
-
 size = int(sys.argv[1])
 timeout = float(sys.argv[2])
 max_window_size = int(sys.argv[3])
@@ -189,6 +186,11 @@ newthread.start()
 start_window = 0  # Indice inicio ventana
 end_window = 0    # Indice final ventana
 
+# Ventana de congestion
+cong_win = max_window_size      # Tamaño ventana de congestión
+min_cong = max_window_size      # Tamaño mínimo alcanzado por la ventana de congestión
+cong_time = 0                   # Tiempo desde la última vez que se disminuyó la ventana de congestión
+
 # Estadísticas
 retransmitted_packages = 0
 sent_packages = 0   # paquetes enviados (sin contar retransmiciones)
@@ -203,16 +205,27 @@ with open(input_file, "rb") as f:
 			while start_window != end_window and acked[start_window]:
 				window[start_window] = None
 				start_window = next_seq(start_window)
+				# Incrementamos la ventana de congestión en una posición
+				if cong_win < max_window_size:
+					cong_win += 1
 
 			# while ventana llena
-			while (end_window - start_window) % MAX_SEQ == max_window_size:
+			while (end_window - start_window) % MAX_SEQ == cong_win:
 				tout = get_timeout(start_window, end_window, timeout)
 				if tout <= 0: tout = 0
 				if not cond.wait(tout):
 					# retransmitir paquetes expirados que no hayan sido recibidos
 					seq = start_window
 					while seq != end_window:
-						if window[seq] and (time.time() - window[seq][1]) >= timeout and not acked[seq]:
+						# Actualiza timeout
+						if rtt_max is None:
+							new_timeout = timeout
+						elif window[seq] is not None and window[seq][2]:
+							new_timeout = 2 * rtt_max
+						else:
+							new_timeout = rtt_max
+
+						if window[seq] and (time.time() - window[seq][1]) >= new_timeout and not acked[seq]:
 							data = window[seq][0]
 							chunk = to_seq(seq) + data
 							try:
@@ -223,11 +236,19 @@ with open(input_file, "rb") as f:
 							except Exception as e:
 								print(f"Error: {e}")
 								pass
+							# Disminuimos la ventana de congestión
+							if rtt_max and (time.time() - cong_time >= rtt_max):
+								cong_win = max(1, cong_win // 2)
+								min_cong = min(min_cong, cong_win)
+								cong_time = time.time()
 						seq = next_seq(seq)
 				# correr la ventana hasta el último paquete secuencial recibido
 				while start_window != end_window and window[start_window] and acked[start_window]:
 					window[start_window] = None
 					start_window = next_seq(start_window)
+					# Incrementamos la ventana de congestión en una posición
+					if cong_win < max_window_size:
+						cong_win += 1
 
 		# Hay espacio en la ventana
 		if not sender_eof:
@@ -252,7 +273,15 @@ with open(input_file, "rb") as f:
 			# retransmitir paquetes expirados que no hayan sido recibidos
 			seq = start_window
 			while seq != end_window:
-				if window[seq] and (time.time() - window[seq][1]) >= timeout and not acked[seq]:
+				# Actualiza timeout
+				if rtt_max is None:
+					new_timeout = timeout
+				elif window[seq] is not None and window[seq][2]:
+					new_timeout = 2 * rtt_max
+				else:
+					new_timeout = rtt_max
+				
+				if window[seq] and (time.time() - window[seq][1]) >= new_timeout and not acked[seq]:
 					data = window[seq][0]
 					chunk = to_seq(seq) + data
 					try:
@@ -263,6 +292,11 @@ with open(input_file, "rb") as f:
 					except Exception as e:
 						print(f"Error: {e}")
 						pass
+					# Disminuimos la ventana de congestión
+					if rtt_max and (time.time() - cong_time >= rtt_max):
+						cong_win = max(1, cong_win // 2)
+						min_cong = min(min_cong, cong_win)
+						cong_time = time.time()
 				seq = next_seq(seq)
 
 newthread.join()              # Espera que el thread termine
@@ -279,6 +313,7 @@ if valid:
 
 		print(f"sent {sent_packages} packets, retrans {retransmitted_packages}, tot packs {total}, {retrans_percentage}%")
 		print(f"Max_win: {max_win}")
+		print(f"min_cong: {min_cong}")
 		print(f"rtt_max = {rtt_max}")
 	else:
 		print("Error: No se enviaron paquetes.")

@@ -81,7 +81,7 @@ def Rdr(sock, output_file, size, max_window_size):
 	with open(output_file, "wb") as f:
 		while not receiver_eof:
 			try:
-				print_window_state()
+				#print_window_state()
 				data = sock.recv(size + 3)
 			except socket.timeout:
 				valid = 0

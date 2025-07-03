@@ -1,0 +1,360 @@
+<size>4096
+<timeout>0.05
+<window_size>1
+Bytes recibidos: 512000
+Tiempo: 2.304037999 segundos
+Bandwidth: 217.01 KB/s
+sent 126 packets, retrans 6, tot packs 132, 4.545454545454546%
+Max_win: 1
+rtt est = 0.014667503329379024
+
+<size>4096
+<timeout>0.05
+<window_size>10
+Bytes recibidos: 512000
+Tiempo: .520116767 segundos
+Bandwidth: 961.32 KB/s
+sent 126 packets, retrans 12, tot packs 138, 8.695652173913043%
+Max_win: 10
+rtt est = 0.040286738047165115
+
+<size>4096
+<timeout>0.05
+<window_size>20
+Bytes recibidos: 512000
+Tiempo: .404621376 segundos
+Bandwidth: 1235.72 KB/s
+sent 126 packets, retrans 23, tot packs 149, 15.436241610738255%
+Max_win: 20
+rtt est = 0.02653027598676761
+
+<size>4096
+<timeout>0.05
+<window_size>30
+Bytes recibidos: 512000
+Tiempo: .316045362 segundos
+Bandwidth: 1582.05 KB/s
+sent 126 packets, retrans 47, tot packs 173, 27.167630057803468%
+Max_win: 30
+rtt est = 0.07030936577999293
+
+<size>4096
+<timeout>0.1
+<window_size>1
+Bytes recibidos: 512000
+Tiempo: 2.241829643 segundos
+Bandwidth: 223.03 KB/s
+sent 126 packets, retrans 3, tot packs 129, 2.3255813953488373%
+Max_win: 1
+rtt est = 0.015486111216899719
+
+<size>4096
+<timeout>0.1
+<window_size>10
+Bytes recibidos: 512000
+Tiempo: .954716843 segundos
+Bandwidth: 523.71 KB/s
+sent 126 packets, retrans 7, tot packs 133, 5.2631578947368425%
+Max_win: 10
+rtt est = 0.058993917205347884
+
+<size>4096
+<timeout>0.1
+<window_size>20
+Bytes recibidos: 512000
+Tiempo: .541889754 segundos
+Bandwidth: 922.69 KB/s
+sent 126 packets, retrans 15, tot packs 141, 10.638297872340425%
+Max_win: 20
+rtt est = 0.053388583918397715
+
+<size>4096
+<timeout>0.1
+<window_size>30
+Bytes recibidos: 512000
+Tiempo: .633678948 segundos
+Bandwidth: 789.04 KB/s
+sent 126 packets, retrans 36, tot packs 162, 22.22222222222222%
+Max_win: 30
+rtt est = 0.11797244403523072
+
+<size>4096
+<timeout>0.5
+<window_size>1
+Bytes recibidos: 512000
+Tiempo: 5.592366208 segundos
+Bandwidth: 89.40 KB/s
+sent 126 packets, retrans 6, tot packs 132, 4.545454545454546%
+Max_win: 1
+rtt est = 0.013563897479231231
+
+<size>4096
+<timeout>0.5
+<window_size>10
+Bytes recibidos: 512000
+Tiempo: 3.087957676 segundos
+Bandwidth: 161.91 KB/s
+sent 126 packets, retrans 5, tot packs 131, 3.816793893129771%
+Max_win: 10
+rtt est = 0.05849765744156778
+
+<size>4096
+<timeout>0.5
+<window_size>20
+Bytes recibidos: 512000
+Tiempo: 2.729863663 segundos
+Bandwidth: 183.15 KB/s
+sent 126 packets, retrans 18, tot packs 144, 12.5%
+Max_win: 20
+rtt est = 0.9736482534723293
+
+<size>4096
+<timeout>0.5
+<window_size>30
+Bytes recibidos: 512000
+Tiempo: 2.203661460 segundos
+Bandwidth: 226.89 KB/s
+sent 126 packets, retrans 38, tot packs 164, 23.170731707317074%
+Max_win: 30
+rtt est = 0.5523380812160736
+
+<size>4500
+<timeout>0.05
+<window_size>1
+Bytes recibidos: 512000
+Tiempo: 2.091091843 segundos
+Bandwidth: 239.10 KB/s
+sent 115 packets, retrans 3, tot packs 118, 2.542372881355932%
+Max_win: 1
+rtt est = 0.015410683921441088
+
+<size>4500
+<timeout>0.05
+<window_size>10
+Bytes recibidos: 512000
+Tiempo: .381964633 segundos
+Bandwidth: 1309.02 KB/s
+sent 115 packets, retrans 15, tot packs 130, 11.538461538461538%
+Max_win: 10
+rtt est = 0.03421042249822248
+
+<size>4500
+<timeout>0.05
+<window_size>20
+Bytes recibidos: 512000
+Tiempo: .415710994 segundos
+Bandwidth: 1202.75 KB/s
+sent 115 packets, retrans 36, tot packs 151, 23.841059602649008%
+Max_win: 20
+rtt est = 0.04340221356093371
+
+<size>4500
+<timeout>0.05
+<window_size>30
+Bytes recibidos: 512000
+Tiempo: .416626761 segundos
+Bandwidth: 1200.11 KB/s
+sent 115 packets, retrans 81, tot packs 196, 41.326530612244895%
+Max_win: 30
+rtt est = 0.1500901234546575
+
+<size>4500
+<timeout>0.1
+<window_size>1
+Bytes recibidos: 512000
+Tiempo: 2.179175390 segundos
+Bandwidth: 229.44 KB/s
+sent 115 packets, retrans 3, tot packs 118, 2.542372881355932%
+Max_win: 1
+rtt est = 0.011748003351236118
+
+<size>4500
+<timeout>0.1
+<window_size>10
+Bytes recibidos: 512000
+Tiempo: .677447746 segundos
+Bandwidth: 738.06 KB/s
+sent 115 packets, retrans 5, tot packs 120, 4.166666666666667%
+Max_win: 10
+rtt est = 0.09876655149165792
+
+<size>4500
+<timeout>0.1
+<window_size>20
+Bytes recibidos: 512000
+Tiempo: .632007255 segundos
+Bandwidth: 791.13 KB/s
+sent 115 packets, retrans 25, tot packs 140, 17.857142857142858%
+Max_win: 20
+rtt est = 0.08437449139178359
+
+<size>4500
+<timeout>0.1
+<window_size>30
+Bytes recibidos: 512000
+Tiempo: .384789063 segundos
+Bandwidth: 1299.41 KB/s
+sent 115 packets, retrans 22, tot packs 137, 16.05839416058394%
+Max_win: 30
+rtt est = 0.07172661626771965
+
+<size>4500
+<timeout>0.5
+<window_size>1
+Bytes recibidos: 512000
+Tiempo: 5.410551076 segundos
+Bandwidth: 92.41 KB/s
+sent 115 packets, retrans 6, tot packs 121, 4.958677685950414%
+Max_win: 1
+rtt est = 0.013754987608541831
+
+<size>4500
+<timeout>0.5
+<window_size>10
+Bytes recibidos: 512000
+Tiempo: .267253845 segundos
+Bandwidth: 1870.88 KB/s
+sent 115 packets, retrans 0, tot packs 115, 0.0%
+Max_win: 10
+rtt est = 0.025328482863508743
+
+<size>4500
+<timeout>0.5
+<window_size>20
+Bytes recibidos: 512000
+Tiempo: 2.798917206 segundos
+Bandwidth: 178.64 KB/s
+sent 115 packets, retrans 28, tot packs 143, 19.58041958041958%
+Max_win: 20
+rtt est = 0.5549795335642517
+
+<size>4500
+<timeout>0.5
+<window_size>30
+Bytes recibidos: 512000
+Tiempo: 2.695174723 segundos
+Bandwidth: 185.51 KB/s
+sent 115 packets, retrans 51, tot packs 166, 30.72289156626506%
+Max_win: 30
+rtt est = 1.01165277222957
+
+<size>5000
+<timeout>0.05
+<window_size>1
+Bytes recibidos: 512000
+Tiempo: 2.359915583 segundos
+Bandwidth: 211.87 KB/s
+sent 104 packets, retrans 9, tot packs 113, 7.964601769911504%
+Max_win: 1
+rtt est = 0.020851923807833454
+
+<size>5000
+<timeout>0.05
+<window_size>10
+Bytes recibidos: 512000
+Tiempo: .461337667 segundos
+Bandwidth: 1083.80 KB/s
+sent 104 packets, retrans 15, tot packs 119, 12.605042016806722%
+Max_win: 10
+rtt est = 0.027574310200195615
+
+<size>5000
+<timeout>0.05
+<window_size>20
+Bytes recibidos: 512000
+Tiempo: .398167206 segundos
+Bandwidth: 1255.75 KB/s
+sent 104 packets, retrans 34, tot packs 138, 24.63768115942029%
+Max_win: 20
+rtt est = 0.07677064375500564
+
+<size>5000
+<timeout>0.05
+<window_size>30
+Bytes recibidos: 512000
+Tiempo: .425615625 segundos
+Bandwidth: 1174.76 KB/s
+sent 104 packets, retrans 92, tot packs 196, 46.93877551020408%
+Max_win: 30
+rtt est = 0.04346052076339772
+
+<size>5000
+<timeout>0.1
+<window_size>1
+Bytes recibidos: 512000
+Tiempo: 2.229314281 segundos
+Bandwidth: 224.28 KB/s
+sent 104 packets, retrans 2, tot packs 106, 1.8867924528301887%
+Max_win: 1
+rtt est = 0.012268241491848275
+
+<size>5000
+<timeout>0.1
+<window_size>10
+Bytes recibidos: 512000
+Tiempo: .370513337 segundos
+Bandwidth: 1349.47 KB/s
+sent 104 packets, retrans 1, tot packs 105, 0.9523809523809523%
+Max_win: 10
+rtt est = 0.10336040974641367
+
+<size>5000
+<timeout>0.1
+<window_size>20
+Bytes recibidos: 512000
+Tiempo: .462342187 segundos
+Bandwidth: 1081.45 KB/s
+sent 104 packets, retrans 21, tot packs 125, 16.8%
+Max_win: 20
+rtt est = 0.06504827334692155
+
+<size>5000
+<timeout>0.1
+<window_size>30
+Bytes recibidos: 512000
+Tiempo: .547914200 segundos
+Bandwidth: 912.55 KB/s
+sent 104 packets, retrans 43, tot packs 147, 29.25170068027211%
+Max_win: 30
+rtt est = 0.07834247906267862
+
+<size>5000
+<timeout>0.5
+<window_size>1
+Bytes recibidos: 512000
+Tiempo: 2.280953146 segundos
+Bandwidth: 219.20 KB/s
+sent 104 packets, retrans 0, tot packs 104, 0.0%
+Max_win: 1
+rtt est = 0.013153829923410375
+
+<size>5000
+<timeout>0.5
+<window_size>10
+Bytes recibidos: 512000
+Tiempo: 1.351396481 segundos
+Bandwidth: 369.98 KB/s
+sent 104 packets, retrans 7, tot packs 111, 6.306306306306307%
+Max_win: 10
+rtt est = 0.15254017808554576
+
+<size>5000
+<timeout>0.5
+<window_size>20
+Bytes recibidos: 512000
+Tiempo: 2.772793464 segundos
+Bandwidth: 180.32 KB/s
+sent 104 packets, retrans 28, tot packs 132, 21.21212121212121%
+Max_win: 20
+rtt est = 0.19164685653378172
+
+<size>5000
+<timeout>0.5
+<window_size>30
+Bytes recibidos: 512000
+Tiempo: 2.242735968 segundos
+Bandwidth: 222.94 KB/s
+sent 104 packets, retrans 54, tot packs 158, 34.177215189873415%
+Max_win: 30
+rtt est = 0.8416583956907655
+
